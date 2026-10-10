@@ -1,0 +1,81 @@
+{
+    "lod": {
+        "enabled": false
+    },
+    "objects": {
+        "0": {
+            "model": "data\\MODEL\\box.x",
+            "name": "model",
+            "tag": "",
+            "transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "scale": [
+                    10.0,
+                    10.0,
+                    10.0
+                ]
+            }
+        },
+        "prefab": {
+            "collider": [
+                {
+                    "offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "size": [
+                        10.0,
+                        10.0,
+                        10.0
+                    ],
+                    "type": "box"
+                }
+            ],
+            "collision": {
+                "friction": 0.0,
+                "rigidbody": false,
+                "trigger": true
+            },
+            "name": "Box",
+            "tag": "OBSTACLE",
+            "transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    },
+    "parents": {
+        "0": -1
+    }
+}

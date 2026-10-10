@@ -1,0 +1,88 @@
+{
+    "pallets": [
+        {
+            "name": "Ball",
+            "path": "data\\OBUS\\Ball.obus"
+        },
+        {
+            "name": "Box",
+            "path": "data\\OBUS\\Box.obus"
+        },
+        {
+            "name": "Cylinder",
+            "path": "data\\OBUS\\Cylinder.obus"
+        }
+    ],
+    "prefab-objects": {
+        "data\\OBUS\\Box.obus": [
+            {
+                "name": "Box",
+                "tag": "OBSTACLE",
+                "transform": {
+                    "position": [
+                        52.27000045776367,
+                        42.5,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.17794354259967804,
+                        0.9840406775474548
+                    ],
+                    "scale": [
+                        1.9800000190734863,
+                        0.3400000035762787,
+                        1.0
+                    ]
+                }
+            }
+        ],
+        "data\\OBUS\\Cylinder.obus": [
+            {
+                "name": "Cylinder",
+                "tag": "OBSTACLE",
+                "transform": {
+                    "position": [
+                        -140.0,
+                        125.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "name": "Cylinder",
+                "tag": "OBSTACLE",
+                "transform": {
+                    "position": [
+                        140.0,
+                        -25.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            }
+        ]
+    }
+}

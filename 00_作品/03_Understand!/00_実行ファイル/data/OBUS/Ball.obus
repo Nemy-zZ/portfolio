@@ -1,0 +1,77 @@
+{
+    "lod": {
+        "enabled": false
+    },
+    "objects": {
+        "0": {
+            "model": "data\\MODEL\\ball.x",
+            "name": "model",
+            "tag": "",
+            "transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    -22.100000381469727
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "scale": [
+                    3.0,
+                    3.0,
+                    3.0
+                ]
+            }
+        },
+        "prefab": {
+            "collider": [
+                {
+                    "offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "radius": 3.0999999046325684,
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "type": "sphere"
+                }
+            ],
+            "collision": {
+                "friction": 0.0,
+                "mass": 0.30000001192092896,
+                "rigidbody": true
+            },
+            "name": "Ball",
+            "tag": "",
+            "transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    },
+    "parents": {
+        "0": -1
+    }
+}

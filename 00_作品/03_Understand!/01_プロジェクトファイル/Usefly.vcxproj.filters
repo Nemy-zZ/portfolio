@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{b7b34278-d7c4-49e3-9bc8-9fec967b4029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system">
+      <UniqueIdentifier>{36d2bd50-334b-4a9c-8ed7-ec9b2a4d6c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\general">
+      <UniqueIdentifier>{14bf3700-2260-449c-9028-a266cb221052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\general">
+      <UniqueIdentifier>{23a56079-df60-4ab7-882d-3ba40e4efc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\components">
+      <UniqueIdentifier>{8dc3322e-aafe-4f53-a4f4-8a4b920fecf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\components\2d">
+      <UniqueIdentifier>{4769b687-6600-49e6-be82-698b608754d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\components">
+      <UniqueIdentifier>{4beefbc9-fe26-4521-94ee-ae36414e3a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\components\2d">
+      <UniqueIdentifier>{de39cf3f-486d-4168-a6a2-49d4a37ef63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scenes">
+      <UniqueIdentifier>{b6f5e3e4-600c-4f38-b3e9-6c24556d40c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scenes">
+      <UniqueIdentifier>{22211bb2-e38e-495e-ba83-c65d17621775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\components\3d">
+      <UniqueIdentifier>{7c405a1a-41af-4ccb-84a8-53c9039d15d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\components\3d">
+      <UniqueIdentifier>{a2d6fccd-3aff-4664-876f-0306b15b9138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system\input_devices">
+      <UniqueIdentifier>{db3f5218-cd66-4977-a2c6-22c258d6be85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system\input_devices">
+      <UniqueIdentifier>{aee11e58-0d4b-487f-902e-cf7ebba7a282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scripts">
+      <UniqueIdentifier>{f757e4a1-799b-4802-b433-efc62133f705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scripts">
+      <UniqueIdentifier>{480f9837-6b11-4b0a-a505-89e6cac4cfce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\components\other">
+      <UniqueIdentifier>{801a49fc-74b0-4aa6-a31e-936908d139b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\components\other">
+      <UniqueIdentifier>{7a0c8e91-c5b3-46aa-9cc7-af7be92e2662}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\general\gameobject.h">
+      <Filter>ヘッダー ファイル\general</Filter>
+    </ClInclude>
+    <ClInclude Include="src\general\component.h">
+      <Filter>ヘッダー ファイル\general</Filter>
+    </ClInclude>
+    <ClInclude Include="src\general\transform.h">
+      <Filter>ヘッダー ファイル\general</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\2d\sprite.h">
+      <Filter>ヘッダー ファイル\components\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\general\scene.h">
+      <Filter>ヘッダー ファイル\general</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\title.h">
+      <Filter>ヘッダー ファイル\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\start.h">
+      <Filter>ヘッダー ファイル\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\model.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\camera.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\light.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\benlib.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\input.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\log.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\main.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\manager.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\object.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\renderer.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\resource_data.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\input_devices\keyboard.h">
+      <Filter>ヘッダー ファイル\system\input_devices</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\KeyTables.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\collision.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\physics.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\collider.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\gizmo.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\2d\text.h">
+      <Filter>ヘッダー ファイル\components\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\general\world.h">
+      <Filter>ヘッダー ファイル\general</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\input_devices\mouse.h">
+      <Filter>ヘッダー ファイル\system\input_devices</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\other\camera_options.h">
+      <Filter>ヘッダー ファイル\components\other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\other\shader.h">
+      <Filter>ヘッダー ファイル\components\other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\sky.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\culling.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\lod.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\motion.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\other\post_effect.h">
+      <Filter>ヘッダー ファイル\components\other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripts\PostEffectCollection.h">
+      <Filter>ヘッダー ファイル\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\3d\billboard.h">
+      <Filter>ヘッダー ファイル\components\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\audio.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\input_devices\gamepad.h">
+      <Filter>ヘッダー ファイル\system\input_devices</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\game.h">
+      <Filter>ヘッダー ファイル\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\ranking.h">
+      <Filter>ヘッダー ファイル\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\result.h">
+      <Filter>ヘッダー ファイル\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripts\player.h">
+      <Filter>ヘッダー ファイル\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripts\ranking_system.h">
+      <Filter>ヘッダー ファイル\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripts\ball.h">
+      <Filter>ヘッダー ファイル\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripts\obstacle.h">
+      <Filter>ヘッダー ファイル\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripts\obstacle_generator.h">
+      <Filter>ヘッダー ファイル\scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\general\gameobject.cpp">
+      <Filter>ソース ファイル\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\general\component.cpp">
+      <Filter>ソース ファイル\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\general\transform.cpp">
+      <Filter>ソース ファイル\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\2d\sprite.cpp">
+      <Filter>ソース ファイル\components\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="PCH.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\general\scene.cpp">
+      <Filter>ソース ファイル\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\title.cpp">
+      <Filter>ソース ファイル\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\start.cpp">
+      <Filter>ソース ファイル\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\model.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\camera.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\light.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\benlib.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\input.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\log.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\main.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\manager.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\object.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\renderer.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\resource_data.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\input_devices\keyboard.cpp">
+      <Filter>ソース ファイル\system\input_devices</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\collision.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\physics.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\collider.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\gizmo.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\2d\text.cpp">
+      <Filter>ソース ファイル\components\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\general\world.cpp">
+      <Filter>ソース ファイル\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\input_devices\mouse.cpp">
+      <Filter>ソース ファイル\system\input_devices</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\other\camera_options.cpp">
+      <Filter>ソース ファイル\components\other</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\other\shader.cpp">
+      <Filter>ソース ファイル\components\other</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\culling.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\lod.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\motion.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\sky.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\other\post_effect.cpp">
+      <Filter>ソース ファイル\components\other</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripts\PostEffectCollection.cpp">
+      <Filter>ソース ファイル\scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\3d\billboard.cpp">
+      <Filter>ソース ファイル\components\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\audio.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\input_devices\gamepad.cpp">
+      <Filter>ソース ファイル\system\input_devices</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\result.cpp">
+      <Filter>ソース ファイル\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\ranking.cpp">
+      <Filter>ソース ファイル\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\game.cpp">
+      <Filter>ソース ファイル\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripts\player.cpp">
+      <Filter>ソース ファイル\scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripts\ranking_system.cpp">
+      <Filter>ソース ファイル\scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripts\ball.cpp">
+      <Filter>ソース ファイル\scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripts\obstacle.cpp">
+      <Filter>ソース ファイル\scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripts\obstacle_generator.cpp">
+      <Filter>ソース ファイル\scripts</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

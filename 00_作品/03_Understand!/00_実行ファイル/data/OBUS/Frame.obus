@@ -1,0 +1,100 @@
+{
+    "lod": {
+        "enabled": false
+    },
+    "objects": {
+        "0": {
+            "model": "data\\MODEL\\frame.x",
+            "name": "model",
+            "tag": "",
+            "transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    -45.79999923706055
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        "prefab": {
+            "collider": [
+                {
+                    "offset": [
+                        -187.10000610351563,
+                        197.39999389648438,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "size": [
+                        187.5,
+                        13.300000190734863,
+                        100.0
+                    ],
+                    "type": "box"
+                },
+                {
+                    "offset": [
+                        -360.8999938964844,
+                        104.5999984741211,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "size": [
+                        13.0,
+                        106.30000305175781,
+                        100.0
+                    ],
+                    "type": "box"
+                }
+            ],
+            "collision": {
+                "friction": 1.0,
+                "rigidbody": false,
+                "trigger": true
+            },
+            "name": "Frame",
+            "tag": "OBSTACLE",
+            "transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    },
+    "parents": {
+        "0": -1
+    }
+}

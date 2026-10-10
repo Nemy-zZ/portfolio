@@ -1,0 +1,78 @@
+{
+    "lod": {
+        "enabled": false
+    },
+    "objects": {
+        "0": {
+            "model": "data\\MODEL\\cylinder.x",
+            "name": "model",
+            "tag": "",
+            "transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        "prefab": {
+            "collider": [
+                {
+                    "height": 10.0,
+                    "offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "radius": 10.0,
+                    "rotation": [
+                        0.7068251967430115,
+                        1.6934297727652127e-14,
+                        -1.6920818045329522e-14,
+                        0.7073882818222046
+                    ],
+                    "type": "cylinder"
+                }
+            ],
+            "collision": {
+                "friction": 0.0,
+                "rigidbody": false,
+                "trigger": true
+            },
+            "name": "Cylinder",
+            "tag": "OBSTACLE",
+            "transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    },
+    "parents": {
+        "0": -1
+    }
+}
